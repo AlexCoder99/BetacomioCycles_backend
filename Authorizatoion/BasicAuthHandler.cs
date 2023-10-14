@@ -18,7 +18,7 @@ using Microsoft.AspNetCore.Http.HttpResults;
 namespace FirstMVC.Auth
 {
     public class BasicAuthHandler : AuthenticationHandler<AuthenticationSchemeOptions>
-    {
+    { 
 
         public RegexCh regexCh = new RegexCh();
         private readonly SingleTonConnectDB _connession;
